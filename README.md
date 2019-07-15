@@ -13,5 +13,11 @@ The assignment questions are available in: ```Exam2018.pdf```
 
 Further information is available at <http://www.math.chalmers.se/Stat/Grundutb/GU/MSA220/S18/> 
 
-# MINI
-The MINI assignments were weekly or bi-weekly and were aimed to help introduce various statistical/machine learning methods. I used various datasets, and also generated some of my own data. The R scripts are in this main directory, with associated data in the ```data/``` directory. The 
+# MINI (Question 1)
+The MINI assignments were weekly or bi-weekly and were aimed to help introduce various statistical/machine learning methods. I used various datasets, and also generated some of my own data. The R scripts are in this main directory, with associated data in the ```data/``` directory. 
+
+```data/mini3/``` contains artificial data and the Python script used to generate it.
+
+*MINI3 script is quite messy*
+
+# TCGA (Question 2)
