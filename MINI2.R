@@ -149,7 +149,7 @@ test2.y <- test2$V4
 test2$V4 <- NULL
 test2.y <- factor(test2.y, labels = c("no", "yes"))
 
-results2 <- run_ml_models(train2,train2.y,test2,test2.y,seed,control,metric,preProcess)
+skin_results <- run_ml_models(train2,train2.y,test2,test2.y,seed,control,metric,preProcess)
 
 
 
@@ -160,11 +160,11 @@ bwplot(pulsar_results,main="Accuracy and Kappa results for the various methods: 
 #dot plot
 dotplot(pulsar_results,main="Accuracy and Kappa results for the various methods: Pulsar")
 
-summary(results2)
+summary(skin_results)
 #boxplotskin
-bwplot(results2,main="Accuracy and Kappa results for the various methods: Skin Segmentation")
+bwplot(skin_results,main="Accuracy and Kappa results for the various methods: Skin Segmentation")
 #dot plot
-dotplot(results2,main="Accuracy and Kappa results for the various methods: Skin")
+dotplot(skin_results,main="Accuracy and Kappa results for the various methods: Skin")
 
 
 
